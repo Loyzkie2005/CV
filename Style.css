@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +9,8 @@
 }
 
 body {
-    background: linear-gradient(120deg, rgb(3, 8, 159), navy);
+  background: linear-gradient(120deg, rgb(122, 122, 50), navy) !important;
+
     font-size: 14px;
     color: #555555;
     }
@@ -26,7 +28,7 @@ body {
     overflow: hidden;
     }
     .bg-dark {
-    background: linear-gradient(120deg, rgb(172, 172, 20), navy) !important;
+    background: linear-gradient(120deg, rgb(172, 172, 3), navy) !important;
     }
     .text-white h2,
     .text-white h4,
@@ -73,6 +75,17 @@ body {
     }
     .contact-info, .skills, .social-links {
     margin-bottom: 50px;
-    }
-
     
+  }
+.btn {
+  background-color: rgb(75, 73, 190);
+  padding: 10px;
+  float: right;
+}
+
+.NextResume {
+  background-color: rgb(35, 33, 145);
+  padding: 10px;
+  float: right;
+
+}
